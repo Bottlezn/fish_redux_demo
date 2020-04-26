@@ -1,16 +1,9 @@
 # fish_redux_demo
 
-A new Flutter project.
+一个帮助快速入门 fish_redux 的 flutter 项目。
 
-## Getting Started
+## tags
 
-This project is a starting point for a Flutter application.
+- mockLeaked：该分支模拟 Flutter 页面中的内存泄漏情况。
+- fixLeaked：使用 fish_redux 来模拟页面耗时操作，依赖其特性解决内存泄漏问题。
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
