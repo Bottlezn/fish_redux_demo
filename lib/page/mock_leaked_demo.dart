@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:fish_redux/fish_redux.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -34,8 +35,10 @@ class _MockLeakedState extends State<MockLeakedPage> {
             RaisedButton(
               child: Text('调用异步函数'),
               onPressed: () {
+                println("模拟耗时操作");
                 Timer(Duration(seconds: 3), () {
                   _content = '3秒延时已到';
+                  println("耗时操作结束");
                   setState(() {});
                 });
               },
